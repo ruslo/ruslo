@@ -16,6 +16,12 @@ Extract features from a point cloud acquired by LiDAR to build a high-definition
   - https://github.com/tensorflow/models/pull/8866 (Fix generation of tfrecord for Cityscapes)
   - https://github.com/tensorflow/models/pull/8870 (Cityscapes splits refactoring)
 
+- Reported bugs:
+
+  - https://github.com/CloudCompare/CloudCompare/issues/1586
+  - https://github.com/CloudCompare/CloudCompare/issues/1612
+  - https://github.com/CloudCompare/CloudCompare/issues/1615
+
 🚁 I-Seed
 ---------
 
