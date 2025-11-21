@@ -11,12 +11,16 @@ Extract features from a point cloud acquired by LiDAR to build a high-definition
 
 - Images labeled using the https://www.v7labs.com/darwin platform
 - DeepLabV3+ model trained on TPU in Google Cloud
-- Related fixes:
+- [DeepLab] Related fixes:
 
   - https://github.com/tensorflow/models/pull/8866 (Fix generation of tfrecord for Cityscapes)
   - https://github.com/tensorflow/models/pull/8870 (Cityscapes splits refactoring)
 
-- Reported bugs:
+- [PCL] Fix illegal memory access in CUDA octree builder:
+
+  - https://github.com/PointCloudLibrary/pcl/issues/2371
+  - https://github.com/PointCloudLibrary/pcl/pull/3627
+- [CloudCompare] Reported bugs:
 
   - https://github.com/CloudCompare/CloudCompare/issues/1586
   - https://github.com/CloudCompare/CloudCompare/issues/1612
@@ -61,10 +65,6 @@ Flight onboard service for Manifold 2-G of DJI Matrice 300 RTK. Object detection
 
   - https://bugs.llvm.org/show_bug.cgi?id=17771 (Unexpected ``length_error``)
   - https://bugs.llvm.org/show_bug.cgi?id=17148 (Segmentation fault with ``max_size - 1``)
-- [PCL] Fix illegal memory access in CUDA octree builder:
-
-  - https://github.com/PointCloudLibrary/pcl/issues/2371
-  - https://github.com/PointCloudLibrary/pcl/pull/3627
 - [Qt] ``QCameraViewfinderSettingsControl2`` for Android:
 
   - https://codereview.qt-project.org/c/qt/qtmultimedia/+/150849
